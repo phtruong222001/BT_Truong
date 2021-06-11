@@ -12,9 +12,5 @@ ahri.use_q(sylas)
 ahri.use_q(sylas)
 ahri.use_q(sylas)
 ahri.use_q(sylas)
-ahri.use_q(sylas)
-ahri.use_q(sylas)
-ahri.use_q(sylas)
-ahri.use_q(sylas)
-ahri.use_q(sylas)
+
 
