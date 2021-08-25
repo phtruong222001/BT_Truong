@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        
+        *{
+          box-sizing: border-box;
+        }
+
+header img {
+  width:100px;
+}
+
+input{
+    float: right;
+}
+
+button{
+    float: right;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+.menu{
+  background:red;
+  line-height:30px;
+  text-align:center;
+  padding: 0 20px 0 20px;
+}
+.search{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    margin:15px;
+    color:black;
+}
+
+.headline{
+  text-align:center;
+  font-size:20px;
+}
+
+
+footer {
+  background:red;
+  padding-left:100px;
+}
+
+.row{
+    background-color: aqua;
+    display: flex;
+}
+
+.col{
+    background-color: rebeccapurple;
+    display: flex;
+}
+
+.colimg{
+    flex: 1;
+}
+.colimg img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.rowimg{
+    flex: 1;
+}
+
+.rowimg img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img  src="https://www.fpt.com.vn/Content/home/images/icon/ic-logo.png" alt="">
+         <input type="search" placeholder="Search" >  <button type="submit">  search </button>
+        
+        
+    </header>
+    <div class="banner" >
+        <img src=" https://i.chungta.vn/2020/06/17/THPT-FPT-hoc-noi-tru3-9506-159-9788-3452-1592390141.jpg" />
+    </div>
+    <div class="menu">
+        <ul>
+            <a href="index.html">Trang chủ</a> |
+            <a href= "#" >Giới thiệu</a> |  
+            <a href="index2.html">Sản phẩm</a> |
+           <a href="index.html">Chính sách</a> |
+           <a href="#">Liên hệ</a>
+        </ul>    
+     </div>
+    <div>
+        <div class="col">
+            <div class="colimg"> <h3>  Kế hoạch học online  </h3> 
+                <p>Sinh viên học online trên GOOGLE MEET </p>
+            </div>
+            <div class="colimg">
+                <img src ="https://thpt.fpt.edu.vn/wp-content/uploads/190926_0886-1024x683.jpg" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="rowimg"> 
+                <img src =" https://hcmuni.fpt.edu.vn/Data/Sites/1/News/4449/nganh-truyen-thong-da-phuong-tien-dai-hoc-fpt-nhung-bi-mat-chua-ke.jpg" />
+                <p>Đăng ký lịch học Block 2</p>
+            </div>
+            <div class="rowimg"> 
+                <h3>Thông tin hoạt động</h3>    
+                <img src =" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfoWA7MqvDwH0QEpPb0o-U7-XwOSYryeejaxO4MRyK_wq6XEBNm9iaLu-lfHoIK5WmRrw&usqp=CAU" />
+                <p>Các hoạt động dã ngoại cho sinh viên năm nhất</p>
+            </div>
+            <div class="rowimg"> 
+                <h3>Thông tin học phí</h3>    
+                <img src ="https://phothongcaodang.fpt.edu.vn/wp-content/uploads/Hoc-phi-pho-thong-cao-dang-fpt-Lien-Thong-953x1024.jpg" />
+                <p> Sinh viên đóng học phí đến ngày 30/8</p>
+            </div>
+        </div>
+        
+       
+    </div>
+<footer> 
+    Họ và tên sinh viên : Nguyễn Quang Minh  <br />
+    Email: minhnqph11509@fpt.edu.vn <br />
+    Địa chỉ : Đông Anh - Hà Nội <br />
+</footer>
+</body>
+</html
